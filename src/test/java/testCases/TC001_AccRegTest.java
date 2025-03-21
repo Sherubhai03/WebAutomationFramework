@@ -11,10 +11,10 @@ public class TC001_AccRegTest extends BaseClass {
 	
 	
 	
-	@Test
+	@Test(groups={"Sanity","Master"})
 	public void VerifyAccReg() {
 		try {
-		logger.info(".....Test Started......");
+		logger.info(".....Reg Test Started......");
 		
 		HomePage hp = new HomePage(driver);
 		
